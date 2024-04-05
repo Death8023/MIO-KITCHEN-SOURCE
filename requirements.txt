@@ -2,7 +2,7 @@ Pillow==9.5.0
 protobuf==3.20.1
 pycryptodome
 Requests==2.31.0
-sv_ttk
+customtkinter
 windnd
 pyinstaller
 chlorophyll

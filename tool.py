@@ -23,7 +23,7 @@ import extra
 import utils
 from extra import *
 from utils import cz, jzxs, v_code, gettype, findfile, findfolder, sdat2img
-
+import customtkinter
 if os.name == 'nt':
     import windnd
     from tkinter import filedialog
@@ -148,7 +148,7 @@ class dev_null:
         ...
 
 
-class Tool(Tk):
+class Tool(customtkinter.CTk):
     def __init__(self):
         super().__init__()
         self.show = None
