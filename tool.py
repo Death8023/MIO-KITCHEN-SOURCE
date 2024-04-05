@@ -173,6 +173,7 @@ class Tool(customtkinter.CTk):
         self.notepad = None
         self.title('MIO-KITCHEN')
         if os.name != "posix":
+            self.wm_iconbitmap()
             self.iconphoto(True,
                            PhotoImage(
                                data=images.icon_byte))
